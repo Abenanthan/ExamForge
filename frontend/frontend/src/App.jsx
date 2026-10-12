@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ExamForge">
       <div className="app">
         <AppNavbar theme={theme} onToggleTheme={toggleTheme} />
         <Routes>
